@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pemesanan pizza</title>
+</head>
+<!-- ini judul formulir -->
+<body style="background-color:lightblue;">
+    <h2 style="text-align: center;">Order Pizza KRAASRII</h2>
+    <form action="data_pemesanan.html" method="POST">
+    <hr>
+    <!-- ini deskripsi formulir -->
+    <p style="text-align: center;">Pizza KraSri online delivery, We deliver the pizza.</p>
+    <p style="text-align: center;">Pesan sekarang</p>
+    <hr>
+    <!-- ini kolom registrasi pesanan formulir -->
+    <fieldset>
+        <legend><b>FORMULIR ORDER PIZZA</b></legend>
+        <label for="">Nama : </label>
+        <input name="nama" value="" form="nama" placeholder="masukan nama anda" type="text">
+        <br>
+        <label for="">Alamat : </label>
+        <input type="alamat" value="" form="alamat" placeholder="masukan alamat anda" type="text">
+        <br>
+        <label for="">Nomer Telepon : </label>
+        <input type="telepon" value="" form="nomer telepon" placeholder="masukan no.telepon anda" type="text">
+        <br>
+        <label for="">Email : </label>
+        <input type="email" value="" form="email" placeholder="masukan email anda" type="text">
+        <hr>
+        <legend><b>MENU PIZZA</b></legend>
+                <label for="jk">beef bbq pizza kraa </label>
+                <input type="checkbox" value="P" name="checkbox" for="checkbox">  
+        <br>
+                <label for="jk">cheesy frank pizza srii </label>
+                <input type="checkbox" value="P" name="checkbox" for="checkbox">
+        <br>
+                <label for="jk">meaty pizza kraa </label>
+                <input type="checkbox" value="P" name="checkbox" for="checkbox">
+        <br>
+                <label for="jk">creamy chicken pizza srii </label>
+                <input type="checkbox" value="P" name="checkbox" for="checkbox">
+        <br>
+                <label for="jk">tasty tuna pizza kraa </label>
+                <input type="checkbox" value="P" name="checkbox" for="checkbox">
+        <br>
+                <label for="jk">komplit full pizza srii </label>
+                <input type="checkbox" value="P" name="checkbox" for="checkbox">
+        <br>
+        <hr>
+        <legend><b>TOPPING PIZZA</b></legend>
+        <label for="jk">paperoni kraa </label>
+        <input type="checkbox" value="P" name="checkbox" for="checkbox">  
+    <br>
+        <label for="jk">sosis srii </label>
+        <input type="checkbox" value="P" name="checkbox" for="checkbox">
+    <br>
+        <label for="jk">mozarella kraa </label>
+        <input type="checkbox" value="P" name="checkbox" for="checkbox">
+    <br>
+        <label for="jk">mushroom srii </label>
+        <input type="checkbox" value="P" name="checkbox" for="checkbox">
+    <br>
+        <legend><b>TOTAL PESANAN</b></legend>
+    <hr>
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+    <br>
+    <br>
+        <input type="submit" value="order" name="order" id="order">
+        <input type="reset" value="reset" name="reset" id="reset">
+    </fieldset>
+    <!-- ini registrasi pizza selesai -->
+    </form>
+</body>
+</html>
