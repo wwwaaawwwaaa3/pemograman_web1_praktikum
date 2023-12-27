@@ -1,0 +1,16 @@
+body{
+    padding: 8vw;
+    margin: 8vw;
+}
+
+.container{
+    display: flex;
+}
+
+img{
+
+    height: 10vw;
+    width: 10vw;
+    flex-grow: 1;
+    margin: 1vh;
+}

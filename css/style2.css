@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header, footer{
+    background-color: yellow;
+    height: 20vh;
+}
+#main{
+    display: flex;
+}
+#main article{
+    flex: 1;
+}
+#main nav,
+
+#main aside{
+    height: 50vh;
+}
+#main nav{
+    background-color: aqua;
+    width: 14vw;
+    order: 1;
+}
+
+#main aside{
+    background-color: pink;
+    width: 14vw;
+}
