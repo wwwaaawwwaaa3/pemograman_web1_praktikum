@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>rupiah ke dollar</title>
+</head>
+<body>
+    <label for="amount">Masukkan Jumlah Rupiah:</label>
+    <input type="number" id="amount" placeholder="Masukkan jumlah rupiah" />
+    <button onclick="convertCurrency()">cek</button>
+    <p id="result">Hasil uang</p>
+</body>
+<script>
+    function convertCurrency() {
+        var amount = parseFloat(document.getElementById("amount").value);
+        var usdExchangeRate = 0.000070; 
+        var eurExchangeRate = 0.000062; 
+        var sgdExchangeRate = 0.000094; 
+        var usdAmount = amount * usdExchangeRate;
+        var eurAmount = amount * eurExchangeRate;
+        var sgdAmount = amount * sgdExchangeRate;
+        var result = "USD: " + usdAmount.toFixed(2) + " | EUR: " + eurAmount.toFixed(2) + " | SGD: " + sgdAmount.toFixed(2);
+        document.getElementById("result").innerText = result;
+}
+</script>
+</html>
