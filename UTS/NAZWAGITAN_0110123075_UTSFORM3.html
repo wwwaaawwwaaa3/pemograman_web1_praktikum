@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS FORM 3</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: lightsteelblue;
+    }
+    .legend{
+        text-align: center;
+    }
+    .topnav{
+        width: 650px;
+        padding: 20px;
+        margin: 0 20px;
+        border-radius: 10px;
+        background-color: lightslategray;
+    }
+    .container{
+        width: 650px;
+        padding: 20px;
+        margin: 0 20px;
+        border-radius: 10px;
+        background-color: lightslategray;
+    }
+</style>
+<body>
+    <div>
+        <form action="" method="post">
+            <!-- tag table keseluruhan -->
+            <fieldset>
+                <!-- tag nama di samping garis -->
+                <legend><b>daftarkan alumni</b></legend>
+                <!-- tag kolom search -->
+                <div class="topnav">
+                    <label for="">cari nama alumni</label>
+                    <input type="text" placeholder="search">
+                    <!-- tag kolom pilih 1 -->
+                </div>
+                <div class="container">
+                    <label for="">program studi : </label>
+                <select>
+                    <option value="sistem informasi">sistem informasi</option>
+                    <option value="teknik informatika">teknik informatika</option>
+                    <option value="bisnis digital">bsnis digital</option>
+                </select>
+                <!-- tag kolom isi -->
+                <br>
+                <label for="">tahun masuk : </label>
+                <input type="text" name="tahun masuk" placeholder="">
+                <br>
+                <label for="">tahun lulus : </label>
+                <input type="text" name="tahun lulus" placeholder="">
+                <br>
+                <label for="">alamat linkend : </label>
+                <input type="text" name="alamat linkend" placeholder="">
+                <br>
+                <label for="">pekerjaan : </label>
+                <input type="text" name="pekerjaan" placeholder="">
+                <br>
+                <label for="">alamat kantor : </label>
+                <input type="text" name="alamat kantor" placeholder="">
+                <br>
+                <!-- tag kolom pilih 2-->
+                <span class="pengurus almuni">pengurus almuni : </span>
+                <label for="ya">ya</label>
+                <input type="radio" value="ya" name="pengurus alumni" for="pengurus almuni">
+                <label for="tidak">tidak</label>
+                <input type="radio" value=tidak name="pengurus alumni" for="pengurus alumni">
+                <br>
+                <!-- tag kolom button -->
+                <button type="simpan">simpan</button>
+                <button type="reset">reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
