@@ -1,0 +1,16 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 720px){
+    body{
+        background-color: lightcoral;
+    }
+    h1{
+        color: black;
+    }
+}
